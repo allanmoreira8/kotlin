@@ -3,4 +3,5 @@
     <string name="name">Nome Restaurante</string>
     <string name="description">Descrição</string>
     <string name="done">Incluir</string>
+    <string name="place_image">Imagem do Restaurante</string>
 </resources>
