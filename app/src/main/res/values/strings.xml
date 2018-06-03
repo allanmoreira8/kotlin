@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KotlinDemo</string>
+    <string name="app_name">Restaurantes</string>
     <string name="name">Nome Restaurante</string>
     <string name="description">Descrição</string>
     <string name="done">Incluir</string>

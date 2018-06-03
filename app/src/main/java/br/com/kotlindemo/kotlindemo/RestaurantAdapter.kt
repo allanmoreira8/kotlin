@@ -5,8 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import br.com.kotlindemo.kotlindemo.model.Restaurant
 
-class RestaurantAdapter(var lista: MutableList<Place>) : RecyclerView.Adapter<RestaurantAdapter.PlaceViewHolder>() {
+class RestaurantAdapter(var lista: MutableList<Restaurant>) : RecyclerView.Adapter<RestaurantAdapter.PlaceViewHolder>() {
 
     override fun getItemCount(): Int {
         return lista.size
@@ -23,7 +24,7 @@ class RestaurantAdapter(var lista: MutableList<Place>) : RecyclerView.Adapter<Re
     }
 
     inner class PlaceViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView) {
-        fun bindPlace(place: Place) {
+        fun bindPlace(place: Restaurant) {
             val name = itemView.findViewById<TextView>(R.id.name)
             val description = itemView.findViewById<TextView>(R.id.description)
 
